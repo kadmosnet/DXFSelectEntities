@@ -41,6 +41,7 @@ namespace DXFSelectEntities
 
             dxfReaderNETControl1.NewDrawing();
             dxfReaderNETControl1.CustomCursor = CustomCursorType.CrossHair;
+            dxfReaderNETControl1.CursorSelectionSize = 8;
             toolStripStatusLabel1.Text = "";
             dxfReaderNETControl1.Dock = DockStyle.Fill;
         }
